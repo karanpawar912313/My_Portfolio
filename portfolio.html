@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Karan Pawar Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1/bundled/lenis.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="cursor"></div>
+
+<div class="container">
+
+<nav>
+
+<h2>Portfolio</h2>
+
+<div class="menu-toggle">
+<i class="fas fa-bars"></i>
+</div>
+
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="profile-container">
+
+<img src="gun_Park.jpg" class="profile-img">
+
+</div>
+
+<h1>Karan <span>Pawar</span></h1>
+
+<p>
+MCA student and passionate Full-Stack Developer.
+I build modern web apps and interactive 3D experiences.
+</p>
+
+<a href="resume.pdf" download class="btn magnetic">
+Download Resume
+</a>
+
+</div>
+
+<!-- SOCIAL LINKS -->
+
+<div class="social-sidebar">
+
+<a href="https://linkedin.com/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/karanpawar912313" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.hackerearth.com/@karanpawar912313/" target="_blank">
+<i class="fab fa-hackerrank"></i>
+</a>
+
+<a href="https://www.facebook.com/share/18VxZYC3DF/" target="_blank">
+<i class="fab fa-facebook"></i>
+</a>
+
+<a href="https://www.instagram.com/karan_pawar________?igsh=NjR4MGRxeG10cHRr" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p style="margin-top:30px;max-width:700px;opacity:.8">
+I am an MCA student passionate about modern web development,
+interactive UI and 3D web experiences using JavaScript.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><p>HTML</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><p>CSS</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><p>JavaScript</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><p>Node.js</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><p>MongoDB</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><p>Git</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><p>GitHub</p></div>
+<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg"><p>Blender</p></div>
+
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card" data-title="Lost & Found Portal"
+data-desc="Portal where users report lost items and claim found items with admin verification.">
+<h3>Lost & Found Portal</h3>
+<p>Lost item reporting system.</p>
+</div>
+
+<div class="card" data-title="3D Galaxy Portfolio"
+data-desc="Interactive portfolio using Three.js galaxy background and animations.">
+<h3>3D Galaxy Portfolio</h3>
+<p>Interactive developer portfolio.</p>
+</div>
+
+<div class="card" data-title="Task Manager"
+data-desc="CRUD web application to manage daily tasks.">
+<h3>Task Manager</h3>
+<p>Simple task manager app.</p>
+</div>
+
+</div>
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>MCA – Master of Computer Applications</h3>
+
+<p>Currently Pursuing</p>
+
+<p>Focused on Software Development, Web Technologies,
+and Modern Programming.</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>Bachelor Degree – Computer Science</h3>
+
+<p>Completed</p>
+
+<p>Learned programming fundamentals, databases,
+and web development.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p style="margin-top:20px">Email : karanpawar912313@email.com</p>
+<p>GitHub : github.com/karanpawar</p>
+<p>LinkedIn : linkedin.com/in/karanpawar</p>
+</section>
+
+<footer>© 2026 Karan Pawar</footer>
+
+</div>
+
+<!-- Project Modal -->
+
+<div class="modal" id="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<h2 id="modalTitle"></h2>
+<p id="modalDesc"></p>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
+
